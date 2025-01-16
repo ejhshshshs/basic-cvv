@@ -278,3 +278,54 @@
 .btn.bg--primary {
 background: #ffa700;
 }
+
+ /* About/ */
+ .about{
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  background: #ffffff;
+ }
+ .about .about__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 5rem;
+ }
+ .about .about__text h3{
+  font-size: rem;
+  font-weight: 800;
+  color: #ffa700;
+  line-height: 5;
+ }
+ .about .about__text p{
+  margin-bottom: 3rem;
+  text-align: justify;
+ }
+
+ /* Mobileview */
+@media screen and (max-width:500px){
+  .about{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about .about__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about .about__text {
+    order: 2;
+  }
+  .about .about__text h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .about .about__text a {
+    display: flex;
+    width: fit-content;
+    margin: 0% auto;
+  }
+  .about img {
+    width:20rem;
+    margin: 0 auto;
+  }
+}
