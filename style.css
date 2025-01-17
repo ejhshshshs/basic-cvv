@@ -279,7 +279,7 @@
 background: #ffa700;
 }
 
- /* About/ */
+ /* About/ section 3*/ 
  .about{
   padding-top: 10rem;
   padding-bottom: 5rem;
@@ -292,7 +292,7 @@ background: #ffa700;
   gap: 5rem;
  }
  .about .about__text h3{
-  font-size: rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #ffa700;
   line-height: 5;
