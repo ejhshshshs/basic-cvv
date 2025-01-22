@@ -625,20 +625,6 @@
 }
 
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
 /* repeatable patterns */
 .btn{
   display: inline-block;
@@ -818,11 +804,12 @@ display: none;
   font-weight: 600;
   margin-bottom: 3rem;
 }
+ 
 .update .update__item table{
   width:100%;
 }
 .update .update__item table tr{
-  height:5rem;
+  height:6rem;
 }
 .update .update__item .update__item__content{
   display:flex;
@@ -834,6 +821,7 @@ display: none;
   max-width: 40rem;
   flex-wrap: wrap;
   gap: 2rem;
+  padding: 1rem;
 }
 .update .update__item ul li a{
   display: inline-block;
@@ -842,7 +830,7 @@ display: none;
   border-radius: 5rem;
   color: black;
 }
-
+ 
 
 
 .update .container {
