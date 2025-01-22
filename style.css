@@ -929,7 +929,139 @@ display: none;
   padding-bottom: 3rem;
 }
  
-  
+  /* CONTACTS */
+.contact {
+  padding: 23.29rem 0;
+  background-color: gray;
+}
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
+.contact__wrapper {
+  flex: 1;
+  margin-right: 6rem;
+}
+
+.contact__title h2 {
+  color: #ff9900;
+  font-size: 4.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact__title p {
+  color: #2b2b2b;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact__line {
+  border: 0;
+  border-top: 2px solid #cccccc;
+  margin-bottom: 4rem;
+}
+
+.contact__horizontal ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.25rem;
+}
+
+.contact__horizontal ul li {
+  display: inline-block;
+}
+
+.contact__horizontal ul li a {
+  color: #ffffff;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.contact__details ul li {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+
+.contact .contact__item ul li{
+display: flex;
+align-items: center;
+color: ;
+}
+
+.contact .contact__logo ul li a{
+  color: #ffa700;
+}
+
+.contact__details .icon {
+  margin-right: 1.25rem;
+}
+
+.contact__form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form label {
+  font-size: 1.75rem;
+  margin-bottom: 0.625rem;
+}
+
+.contact__inputs {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 1.25rem;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.submit {
+  background-color: #ff9900;
+  color: #ffffff;
+  border: none;
+  padding: 1.875rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #e68a00;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+footer .social__icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+footer .social__icons a {
+  color: #ffffff;
+  font-size: 3rem;
+  text-decoration: none;
+}
 
  
 
