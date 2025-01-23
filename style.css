@@ -1180,35 +1180,51 @@ display: none;
 
   /* ######## MOBILE VIEW ######## */
   
-  @media (max-width: 500px) {
-    .contact__container{
+  @media screen and (max-width: 500px) {
+
+    .parabola {
+      text-align: center;
+      font-size: 2rem;
+    }
+    .update {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .update .container {
       display: grid;
       grid-template-columns: 1fr;
-      margin: 0 auto;
-    }
-    .contact__title h2 {
-      text-align: center;
-    }
-    .contact__title {
-      margin: 0 auto;
-      justify-items: center;
-    }
-    .contact__title p{
-      text-align: center;
     }
   
-    .submit{
-      margin: 0 auto
+    .update .trend__intro h2{
+      text-align: center;
+      font-size: 4rem;
     }
-    .contact {
-      padding-top: 10rem ;
-      padding-bottom: 5rem;
-      
+  
+    .trend__post img{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
-    .contact__wrapper{
-      margin: 0rem;
+  
+    .trend__post ul{
+      font-size: 1.2rem;
+      justify-content: center;
     }
+  
+    .trend__post p{
+      padding-top: 0rem;
+    }
+    .update .sidepannel {
+      padding-top: 0rem;
+    }
+  
+  .update .update__item ul {
+    font-size: 1rem;
   }
+  .trend__post {
+    margin-bottom: 0rem;
+  }
+  
+    }
   
 
 
