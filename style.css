@@ -1103,7 +1103,6 @@ display: none;
     margin-bottom: 2.5rem;
     font-size: 2rem;
     width: 100%;
-    border-radius: 10px; 
     resize: none;
   }
   
@@ -1154,7 +1153,7 @@ display: none;
     background: white;
     padding: 2rem;
     text-align: center;
-    /* border-radius: 5px; */
+    border-radius: 5px;
   }
   
   .popup-close {
@@ -1175,7 +1174,8 @@ display: none;
     border-bottom: 1px solid #ffffff;
     padding-top: 11.5rem;
     padding-bottom: 13.5rem;
-  } 
+  }  
+  /* mobilll/ */
   @media (max-width: 500px) {
     .contact__container{
       display: grid;
@@ -1259,8 +1259,4 @@ display: none;
   
     }
   
-
-
-
-
 
