@@ -1104,6 +1104,7 @@ display: none;
     font-size: 2rem;
     width: 100%;
     border-radius: 10px; 
+    resize: none;
   }
   
   
@@ -1153,7 +1154,7 @@ display: none;
     background: white;
     padding: 2rem;
     text-align: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
   
   .popup-close {
@@ -1175,7 +1176,39 @@ display: none;
     padding-top: 11.5rem;
     padding-bottom: 13.5rem;
   } 
-
+  @media (max-width: 500px) {
+    .contact__container{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+    }
+    .contact__title h2 {
+      text-align: center;
+    }
+    .contact__title {
+      margin: 0 auto;
+      justify-items: center;
+    }
+    .contact__title p{
+      text-align: center;
+    }
+  
+    .submit{
+      margin: 0 auto
+    }
+    .contact {
+      padding-top: 10rem ;
+      padding-bottom: 5rem;
+      
+    }
+    .contact__wrapper {
+    margin-right: 0rem;
+  }
+  
+  .contact__form{
+    padding-top: 2rem;
+  }
+  }
   
 
   /* ######## MOBILE VIEW ######## */
